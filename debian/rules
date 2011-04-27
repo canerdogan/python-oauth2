@@ -9,4 +9,4 @@ include /usr/share/cdbs/1/class/python-distutils.mk
 build/python-oauth2::
 	pyflakes oauth2
 	python-coverage run --branch --include=oauth2/* setup.py test
-	python-coverage html -d $(ARTIFACTS)/htmlcov
+	python-coverage html -d htmlcov
